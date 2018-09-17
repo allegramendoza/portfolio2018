@@ -1,0 +1,243 @@
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 65px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 10px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#email img {
+  position: fixed;
+  left: 30px;
+  top: 60px;
+  width: 2.7%;
+}
+
+#ig img {
+  width: 1.5%;
+  position: fixed;
+  left: 1050px;
+  top: 65px;
+}
+
+#linkedin img {
+  position: fixed;
+  left: 1085px;
+  top: 50px;
+  width: 2.5%;
+}
+
+#whitebox img {
+  width: 14%;
+  position: fixed;
+  left: 1050px;
+  top: 101px;
+}
+
+#small_apm img {
+  width: 2.3%;
+  position: fixed;
+  left: 1060px;
+  top: 108px;
+}
+
+#listone li {
+  list-style: none;
+}
+
+#listone {
+  position: relative;
+  left: 860px;
+  font: 'Lato' , sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+#header {
+  position: relative;
+}
+
+#listthree li {
+  position: absolute;
+  font: 'Lato' , sans-serif;
+  font-weight: 900;
+  font-size: 175px;
+  list-style: none;
+}
+
+#listthree li:nth-child(1) {
+  color: black;
+  top: 0;
+  left: -229px;
+}
+
+#listthree li:nth-child(2) {
+  top: 126px;
+  left: -240px;
+}
+
+#listthree li:nth-child(3) {
+  top: 252px;
+  left: -239px;
+}
+
+
+#listtwo li {
+  list-style: none;
+}
+
+#listtwo {
+  position: relative;
+  top: 250px;
+  left: 150px;
+  list-style: none;
+  font: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+#listfour {
+  position: relative;
+  top: 250px;
+  left: 0;
+  font: 'Lato' , sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+#listfour li {
+  list-style: none;
+}
+
+#mb1 {
+  position: relative;
+  top: 300px;
+  margin: 0 auto;
+  margin-right: 30px;
+  width: 50%;
+}
+
+#mb2 {
+  position: relative;
+  margin: 0 auto;
+  width: 65%;
+  top: 400px;
+}
+
+#lineone hr {
+  width: 90%;
+  height: 1px;
+  margin-top: 500px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: black;
+  border: 1px;
+}
+
+#listfive {
+  position: relative;
+  top: 25px;
+  left: 0;
+  font: 'Lato' , sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+#listfive li {
+  list-style: none;
+}
+
+#linetwo hr {
+  width: 90%;
+  height: 1px;
+  margin-top: 500px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  background-color: black;
+  border: 1px;
+}
+
+#apm_one {
+  position: relative;
+  width: 20%;
+  top: 80px;
+}
+
+#apm_two {
+  position: relative;
+  width: 20%;
+  bottom: 375px;
+}
+
+#apm_three {
+  position: relative;
+  width: 20%;
+  top: 100px;
+}
+
+#apm_four {
+  position: relative;
+  width: 20%;
+  top: 80px;
+}
+
+#contact p {
+  position: relative;
+  top: 500px;
+  font: 'Lato' , sans-serif;
+  font-weight: 300;
+  font-size: 100px;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
